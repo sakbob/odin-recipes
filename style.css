@@ -1,8 +1,17 @@
-.home {
+/* This body affects every single thing (globally set background to this) */
+body {
     background-color: rgb(255, 227, 214);
+}
+
+/* .home has to do with the index page */
+.home {
     text-align: center;
+}
+
+.home h1 {
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 75px;
+    text-decoration: underline;
 }
 
 .home a {
@@ -12,12 +21,10 @@
     text-decoration-line: none;
     margin: auto;
     display: block;
+    padding: 8px;
 }
 
-.page { 
-    background-color: rgb(255, 227, 214);
-}
-
+/* .page has to do with all pages for recipes which share a specific format */
 .page a {
     font-weight: lighter;
     font-size: 30px;
