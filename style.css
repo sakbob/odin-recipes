@@ -10,6 +10,8 @@
     font-size: 42px;
     color: blue;
     text-decoration-line: none;
+    margin: auto;
+    display: block;
 }
 
 .page { 
